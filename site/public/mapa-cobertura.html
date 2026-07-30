@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Área de cobertura — SC Energia Solar</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<style>
+  html,body{margin:0;height:100%;background:#eceef0;font-family:'Inter',-apple-system,'Helvetica Neue',Arial,sans-serif}
+  #map{position:absolute;inset:0}
+  .leaflet-container{background:#eceef0}
+  .leaflet-control-attribution{font-size:10px;background:rgba(255,255,255,.8)}
+  .sc-label{font-size:11px;font-weight:600;color:#0d3858;white-space:nowrap;text-shadow:0 0 3px #fff,0 0 3px #fff}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+  var cities = [
+    ['Florianópolis', -27.5954, -48.5480, true],
+    ['São José', -27.6136, -48.6366, false],
+    ['Palhoça', -27.6455, -48.6700, false],
+    ['Balneário Camboriú', -26.9906, -48.6348, false],
+    ['Itajaí', -26.9078, -48.6619, false],
+    ['Blumenau', -26.9194, -49.0661, false],
+    ['Joinville', -26.3044, -48.8456, false],
+    ['Jaraguá do Sul', -26.4851, -49.0669, false],
+    ['Criciúma', -28.6775, -49.3697, false],
+    ['Tubarão', -28.4713, -49.0069, false],
+    ['Lages', -27.8158, -50.3259, false],
+    ['Chapecó', -27.1004, -52.6152, false]
+  ];
+  var map = L.map('map', { scrollWheelZoom: false, zoomControl: true, attributionControl: true })
+    .setView([-27.4, -50.4], 7);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors', maxZoom: 18
+  }).addTo(map);
+  cities.forEach(function (c) {
+    var hq = c[3];
+    L.circleMarker([c[1], c[2]], {
+      radius: hq ? 9 : 6,
+      color: '#0d3858',
+      weight: hq ? 3 : 2,
+      fillColor: hq ? '#0d3858' : '#2e7dd1',
+      fillOpacity: hq ? 1 : .85
+    }).addTo(map).bindTooltip(c[0] + (hq ? ' · sede' : ''), {
+      permanent: true, direction: 'right', offset: [8, 0], className: 'sc-label', opacity: 1
+    });
+  });
+</script>
+</body>
+</html>

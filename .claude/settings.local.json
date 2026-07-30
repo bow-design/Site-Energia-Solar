@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Read(//Users/user/**)",
+      "Bash(brew list *)",
+      "Bash(brew --version)",
+      "Bash(base64 -D -i logo-mark.b64 -o logo-mark.png)",
+      "Bash(mise ls *)",
+      "Bash(asdf list *)",
+      "Bash(volta list *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npm view *)",
+      "Bash(npm audit *)",
+      "Bash(npm ls *)",
+      "Bash(mkdir -p \"/Users/user/Documents/SITES/SC ENERGIA/.claude\")"
+    ]
+  }
+}
