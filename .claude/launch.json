@@ -4,7 +4,7 @@
     {
       "name": "sc-energia-solar",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--prefix", "site"],
+      "runtimeArgs": ["run", "dev"],
       "port": 3000
     }
   ]
