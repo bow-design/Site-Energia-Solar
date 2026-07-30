@@ -82,7 +82,7 @@ export default function ContatoPage() {
                   <Select label="Valor médio da conta de luz" options={FAIXAS.map((x) => ({ value: x.value, label: x.label }))} value={faixa} onChange={(e) => setFaixa(e.target.value)} />
                 </div>
                 <div style={{ marginTop: 22 }}>
-                  <Checkbox label="Autorizo o contato da SC Energia Solar sobre este pedido." checked={aceite} onChange={(e) => setAceite(e.target.checked)} />
+                  <Checkbox label="Autorizo o contato da Empresa Solar sobre este pedido." checked={aceite} onChange={(e) => setAceite(e.target.checked)} />
                 </div>
                 <div style={{ marginTop: 28, display: 'flex', flexWrap: 'wrap', gap: 14, alignItems: 'center' }}>
                   <Button size="lg" onClick={submit}>Ver minha economia</Button>
@@ -155,7 +155,7 @@ export default function ContatoPage() {
           <div style={{ marginTop: 'clamp(28px,3.5vw,44px)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: 'var(--shadow-sm)', background: '#fff' }}>
             <iframe
               src="/mapa-cobertura.html"
-              title="Mapa da área de cobertura da SC Energia Solar em Santa Catarina"
+              title="Mapa da área de cobertura da Empresa Solar em Santa Catarina"
               loading="lazy"
               style={{ display: 'block', width: '100%', height: 'clamp(360px,52vh,520px)', border: 0 }}
             />

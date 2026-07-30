@@ -16,7 +16,7 @@ export default function SiteFooter() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: 18, minWidth: 200 }}>
           <Image
             src="/assets/logo-full.png"
-            alt="SC Energia Solar"
+            alt="Empresa Solar"
             width={200}
             height={155}
             style={{ height: 74, width: 'auto', filter: 'brightness(0) invert(1)', opacity: 0.94 }}
@@ -68,7 +68,7 @@ export default function SiteFooter() {
         }}
       >
         <span style={{ fontSize: 12, color: 'rgba(255,255,255,.45)' }}>
-          © 2026 SC Energia Solar · Energia solar desde 2013 · CNPJ 00.000.000/0001-00
+          © 2026 Empresa Solar · Energia solar desde 2013 · CNPJ 00.000.000/0001-00
         </span>
         <span style={{ fontSize: 12, color: 'rgba(255,255,255,.35)' }}>
           Fotografias: <a href="https://unsplash.com/?utm_source=claude_design&utm_medium=referral" style={{ color: 'rgba(255,255,255,.55)' }}>Unsplash</a>

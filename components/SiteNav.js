@@ -69,7 +69,7 @@ export default function SiteNav() {
         <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 11, flexShrink: 0, color: 'inherit' }}>
           <Image
             src="/assets/logo-mark.png"
-            alt="SC Energia Solar"
+            alt="Empresa Solar"
             width={28}
             height={14}
             style={{
@@ -168,7 +168,7 @@ export default function SiteNav() {
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 46 }}>
-            <Image src="/assets/logo-mark.png" alt="SC Energia Solar" width={26} height={13} style={{ height: 26, width: 'auto' }} />
+            <Image src="/assets/logo-mark.png" alt="Empresa Solar" width={26} height={13} style={{ height: 26, width: 'auto' }} />
             <button
               type="button"
               aria-label="Fechar menu"

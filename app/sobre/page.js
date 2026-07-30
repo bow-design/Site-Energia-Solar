@@ -33,7 +33,7 @@ export default function SobrePage() {
           </h2>
           <div data-reveal="up" data-delay="100" style={{ display: 'flex', flexDirection: 'column', gap: 22 }}>
             <p style={{ margin: 0, fontSize: 'clamp(16px,1.4vw,20px)', lineHeight: 1.7, color: 'var(--text-primary)', maxWidth: '56ch' }}>
-              A SC Energia Solar nasceu com um objetivo simples: tornar a geração de energia própria mais acessível, eficiente e segura.
+              A Empresa Solar nasceu com um objetivo simples: tornar a geração de energia própria mais acessível, eficiente e segura.
             </p>
             <p style={{ margin: 0, fontSize: 'clamp(15px,1.25vw,17px)', lineHeight: 1.75, color: 'var(--text-secondary)', maxWidth: '56ch' }}>
               Cada projeto é desenvolvido pensando no longo prazo, porque acreditamos que investir em energia solar significa investir no futuro da sua família, do seu negócio e do seu patrimônio.

@@ -4,7 +4,7 @@ import SiteNav from '../components/SiteNav';
 import SiteFooter from '../components/SiteFooter';
 
 export const metadata = {
-  title: 'SC Energia Solar',
+  title: 'Empresa Solar',
   description: 'Projetos inteligentes de energia solar para residências, empresas e propriedades rurais.',
 };
 

@@ -228,7 +228,7 @@ export default function HomePage() {
             Não existe projeto igual para todos.
           </p>
           <p data-reveal="up" data-delay="200" style={{ margin: 0, fontSize: 'clamp(15px,1.3vw,18px)', lineHeight: 1.75, color: 'rgba(255,255,255,.66)', maxWidth: '62ch' }}>
-            Cada residência, empresa ou propriedade rural possui um perfil de consumo diferente. Por isso, cada sistema desenvolvido pela SC Energia Solar é dimensionado para oferecer máxima eficiência e o melhor retorno sobre o investimento.
+            Cada residência, empresa ou propriedade rural possui um perfil de consumo diferente. Por isso, cada sistema desenvolvido pela Empresa Solar é dimensionado para oferecer máxima eficiência e o melhor retorno sobre o investimento.
           </p>
         </div>
       </section>
@@ -282,7 +282,7 @@ export default function HomePage() {
       <section data-screen-label="Diferenciais" style={{ background: '#fff', padding: 'clamp(72px,9vw,130px) clamp(20px,5vw,48px)' }}>
         <div style={{ maxWidth: 'var(--content-max)', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(300px,1fr))', gap: 'clamp(36px,6vw,80px)' }}>
           <h2 data-reveal="up" style={{ margin: 0, fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 'clamp(30px,4.2vw,58px)', lineHeight: 1.03, letterSpacing: '-.035em', maxWidth: '13ch', alignSelf: 'start', position: 'sticky', top: 110 }}>
-            Por que escolher a SC Energia Solar?
+            Por que escolher a Empresa Solar?
           </h2>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             {[
@@ -339,7 +339,7 @@ export default function HomePage() {
               Confiança.
             </h2>
             <p style={{ margin: '26px 0 0', fontSize: 'clamp(15px,1.25vw,17px)', lineHeight: 1.75, color: 'var(--text-secondary)', maxWidth: '52ch' }}>
-              A SC Energia Solar nasceu com um objetivo simples: tornar a geração de energia própria mais acessível, eficiente e segura.
+              A Empresa Solar nasceu com um objetivo simples: tornar a geração de energia própria mais acessível, eficiente e segura.
             </p>
             <Link href="/sobre" className="sc-link-underline" style={{ display: 'inline-block', marginTop: 26 }}>Conhecer a empresa</Link>
           </div>
