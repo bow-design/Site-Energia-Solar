@@ -45,12 +45,12 @@ export default function SiteFooter() {
           <span style={{ fontSize: 11, letterSpacing: '.2em', textTransform: 'uppercase', color: 'rgba(255,255,255,.42)' }}>Contato</span>
           <FooterLink href="tel:+554830000000">(48) 3000-0000</FooterLink>
           <FooterLink href="https://wa.me/5548999990000">WhatsApp (48) 99999-0000</FooterLink>
-          <FooterLink href="mailto:contato@scenergiasolar.com.br">contato@scenergiasolar.com.br</FooterLink>
-          <FooterLink href="https://www.instagram.com/scenergiasolar">@scenergiasolar</FooterLink>
+          <FooterLink href="mailto:contato@empresasolar.com.br">contato@empresasolar.com.br</FooterLink>
+          <FooterLink href="https://www.instagram.com/empresasolar">@empresasolar</FooterLink>
           <span style={{ fontSize: 14, lineHeight: 1.6, color: 'rgba(255,255,255,.6)' }}>
             Rua das Palmeiras, 250 — Centro
             <br />
-            Florianópolis · SC
+            [Sua Cidade] · SC
           </span>
         </div>
       </div>

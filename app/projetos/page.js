@@ -5,7 +5,7 @@ import useSiteMotion from '../../hooks/useSiteMotion';
 import Button from '../../components/ui/Button';
 
 const GALLERY = [
-  { img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80', title: 'Residência · Jurerê, Florianópolis', meta: '9,8 kWp · 1.180 kWh/mês · economia de 92%', span: 2, h: 'clamp(320px,58vh,620px)' },
+  { img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80', title: 'Residência · Jurerê, [Sua Cidade]', meta: '9,8 kWp · 1.180 kWh/mês · economia de 92%', span: 2, h: 'clamp(320px,58vh,620px)' },
   { img: 'https://images.unsplash.com/photo-1545209463-e2825498edbf?auto=format&fit=crop&w=1400&q=80', title: 'Indústria · Itajaí', meta: '148 kWp · usina de solo', delay: '90', h: 'clamp(320px,58vh,620px)' },
   { img: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1400&q=80', title: 'Propriedade rural · Chapecó', meta: '62 kWp · irrigação', h: 'clamp(300px,46vh,480px)' },
   { img: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1400&q=80', title: 'Residência · Blumenau', meta: '6,4 kWp · telhado cerâmico', delay: '90', h: 'clamp(300px,46vh,480px)' },

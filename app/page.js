@@ -308,7 +308,7 @@ export default function HomePage() {
           <span data-reveal="up" style={{ display: 'block', fontSize: 11, letterSpacing: '.26em', textTransform: 'uppercase', color: 'var(--gray-400)' }}>Depoimentos</span>
           <div style={{ marginTop: 'clamp(32px,4vw,52px)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(280px,1fr))', gap: 'clamp(16px,2vw,24px)' }}>
             {[
-              { q: '"A conta caiu de R$ 780 para R$ 92 no primeiro mês. O projeto foi entregue no prazo combinado."', a: 'Marcelo A. · Residencial · Florianópolis', delay: undefined },
+              { q: '"A conta caiu de R$ 780 para R$ 92 no primeiro mês. O projeto foi entregue no prazo combinado."', a: 'Marcelo A. · Residencial · [Sua Cidade]', delay: undefined },
               { q: '"Cuidaram de tudo, inclusive da homologação. Só precisei acompanhar pelo relatório."', a: 'Renata S. · Comercial · Itajaí', delay: '110' },
               { q: '"Na propriedade, energia parada é prejuízo. Desde a instalação não tivemos nenhum problema."', a: 'Jorge M. · Rural · Chapecó', delay: '220' },
             ].map((d) => (

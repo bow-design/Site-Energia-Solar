@@ -214,7 +214,7 @@ export default function SiteNav() {
               Simular minha economia
             </a>
             <span style={{ fontSize: 12, color: 'var(--text-secondary)', letterSpacing: '.02em' }}>
-              (48) 3000-0000 · contato@scenergiasolar.com.br
+              (48) 3000-0000 · contato@empresasolar.com.br
             </span>
           </div>
         </div>
