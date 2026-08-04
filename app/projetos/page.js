@@ -6,11 +6,11 @@ import Button from '../../components/ui/Button';
 
 const GALLERY = [
   { img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80', title: 'Residência · Jurerê, [Sua Cidade]', meta: '9,8 kWp · 1.180 kWh/mês · economia de 92%', span: 2, h: 'clamp(320px,58vh,620px)' },
-  { img: 'https://images.unsplash.com/photo-1545209463-e2825498edbf?auto=format&fit=crop&w=1400&q=80', title: 'Indústria · Itajaí', meta: '148 kWp · usina de solo', delay: '90', h: 'clamp(320px,58vh,620px)' },
-  { img: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1400&q=80', title: 'Propriedade rural · Chapecó', meta: '62 kWp · irrigação', h: 'clamp(300px,46vh,480px)' },
-  { img: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1400&q=80', title: 'Residência · Blumenau', meta: '6,4 kWp · telhado cerâmico', delay: '90', h: 'clamp(300px,46vh,480px)' },
-  { img: 'https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?auto=format&fit=crop&w=1400&q=80', title: 'Centro empresarial · Joinville', meta: '230 kWp · geração remota', delay: '180', h: 'clamp(300px,46vh,480px)' },
-  { img: 'https://images.unsplash.com/photo-1611365892117-00ac5ef43c90?auto=format&fit=crop&w=2000&q=80', title: 'Cooperativa · Criciúma', meta: '410 kWp · maior projeto entregue', span: 2, h: 'clamp(320px,54vh,560px)' },
+  { img: 'https://images.unsplash.com/photo-1545209463-e2825498edbf?auto=format&fit=crop&w=1400&q=80', title: 'Indústria · [Sua Cidade]', meta: '148 kWp · usina de solo', delay: '90', h: 'clamp(320px,58vh,620px)' },
+  { img: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1400&q=80', title: 'Propriedade rural · [Sua Cidade]', meta: '62 kWp · irrigação', h: 'clamp(300px,46vh,480px)' },
+  { img: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1400&q=80', title: 'Residência · [Sua Cidade]', meta: '6,4 kWp · telhado cerâmico', delay: '90', h: 'clamp(300px,46vh,480px)' },
+  { img: 'https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?auto=format&fit=crop&w=1400&q=80', title: 'Centro empresarial · [Sua Cidade]', meta: '230 kWp · geração remota', delay: '180', h: 'clamp(300px,46vh,480px)' },
+  { img: 'https://images.unsplash.com/photo-1611365892117-00ac5ef43c90?auto=format&fit=crop&w=2000&q=80', title: 'Cooperativa · [Sua Cidade]', meta: '410 kWp · maior projeto entregue', span: 2, h: 'clamp(320px,54vh,560px)' },
 ];
 
 export default function ProjetosPage() {
