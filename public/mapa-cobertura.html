@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Área de cobertura — Empresa Solar</title>
+<title>Área de cobertura — Camaquã, RS e Região</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
 <style>
@@ -18,21 +18,21 @@
 <div id="map"></div>
 <script>
   var cities = [
-    ['Florianópolis', -27.5954, -48.5480, true],
-    ['São José', -27.6136, -48.6366, false],
-    ['Palhoça', -27.6455, -48.6700, false],
-    ['Balneário Camboriú', -26.9906, -48.6348, false],
-    ['Itajaí', -26.9078, -48.6619, false],
-    ['Blumenau', -26.9194, -49.0661, false],
-    ['Joinville', -26.3044, -48.8456, false],
-    ['Jaraguá do Sul', -26.4851, -49.0669, false],
-    ['Criciúma', -28.6775, -49.3697, false],
-    ['Tubarão', -28.4713, -49.0069, false],
-    ['Lages', -27.8158, -50.3259, false],
-    ['Chapecó', -27.1004, -52.6152, false]
+    ['Camaquã', -30.3650, -51.8114, true],
+    ['Santana do Livramento', -30.8934, -55.4976, false],
+    ['Jaguarão', -32.5658, -54.5737, false],
+    ['Pelotas', -31.7648, -52.3281, false],
+    ['Rio Grande', -32.0349, -52.0986, false],
+    ['Arroio do Sal', -29.6689, -50.2969, false],
+    ['Capão da Canoa', -29.6449, -50.0184, false],
+    ['Osório', -29.8764, -50.2179, false],
+    ['Torres', -29.3357, -49.7315, false],
+    ['Tramandaí', -29.9828, -50.1283, false],
+    ['Gravataí', -30.0721, -51.5228, false],
+    ['Viamão', -30.1369, -51.4442, false]
   ];
   var map = L.map('map', { scrollWheelZoom: false, zoomControl: true, attributionControl: true })
-    .setView([-27.4, -50.4], 7);
+    .setView([-30.5, -51.8], 8);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors', maxZoom: 18
   }).addTo(map);

@@ -145,17 +145,17 @@ export default function ContatoPage() {
             <div>
               <span style={{ fontSize: 11, letterSpacing: '.26em', textTransform: 'uppercase', color: 'var(--gray-400)' }}>Área de cobertura</span>
               <h2 style={{ margin: '16px 0 0', fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 'clamp(26px,3.4vw,46px)', lineHeight: 1.05, letterSpacing: '-.035em', maxWidth: '16ch' }}>
-                Atendemos todo o estado de Santa Catarina.
+                Atendemos Camaquã, RS e região.
               </h2>
             </div>
             <p style={{ margin: 0, fontSize: 15, lineHeight: 1.7, color: 'var(--text-secondary)', maxWidth: '38ch' }}>
-              Equipe própria no litoral, vale e planalto. Projetos fora do estado sob consulta.
+              Cobertura em Camaquã e municípios próximos. Atendimento personalizado para sua região.
             </p>
           </div>
           <div style={{ marginTop: 'clamp(28px,3.5vw,44px)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: 'var(--shadow-sm)', background: '#fff' }}>
             <iframe
               src="/mapa-cobertura.html"
-              title="Mapa da área de cobertura da Empresa Solar em Santa Catarina"
+              title="Mapa da área de cobertura da Empresa Solar em Camaquã, RS e região"
               loading="lazy"
               style={{ display: 'block', width: '100%', height: 'clamp(360px,52vh,520px)', border: 0 }}
             />
