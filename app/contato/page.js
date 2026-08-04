@@ -128,7 +128,7 @@ export default function ContatoPage() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6, paddingTop: 'clamp(20px,2.4vw,30px)', borderTop: '1px solid var(--border-subtle)' }}>
               <span style={{ fontSize: 11, letterSpacing: '.22em', textTransform: 'uppercase', color: 'var(--gray-400)' }}>Escritório</span>
-              <span style={{ fontSize: 16, lineHeight: 1.6 }}>Rua das Palmeiras, 250 — Centro<br />[Sua Cidade] · SC</span>
+              <span style={{ fontSize: 16, lineHeight: 1.6 }}>Rua das Palmeiras, 250 — Centro<br />[Sua Cidade] · [UF]</span>
               <span style={{ fontSize: 14, color: 'var(--text-secondary)', marginTop: 4 }}>Segunda a sexta, 8h às 18h</span>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6, paddingTop: 'clamp(20px,2.4vw,30px)', borderTop: '1px solid var(--border-subtle)' }}>

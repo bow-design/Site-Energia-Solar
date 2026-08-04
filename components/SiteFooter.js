@@ -50,7 +50,7 @@ export default function SiteFooter() {
           <span style={{ fontSize: 14, lineHeight: 1.6, color: 'rgba(255,255,255,.6)' }}>
             Rua das Palmeiras, 250 — Centro
             <br />
-            [Sua Cidade] · SC
+            [Sua Cidade] · [UF]
           </span>
         </div>
       </div>
